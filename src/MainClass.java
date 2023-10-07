@@ -76,7 +76,6 @@ String sql= "SELECT DISTINCT alumno.*, materia.nombre FROM alumno "
                     LocalDate fechN=rs.getDate("fechaDeNacimiento").toLocalDate();
                     boolean estado = rs.getBoolean("estado");
                     String materia = rs.getString("materia.nombre");
-                           
 
                     //sout("Mostrar Datos)
                     
